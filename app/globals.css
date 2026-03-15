@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space: var(--font-space-grotesk);
+  --font-jakarta: var(--font-jakarta);
+}
+
+:root {
+  --background: #f0f7ff; /* Mist */
+  --foreground: #2d3436; /* Charcoal Ink */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family:
+    var(--font-jakarta), sans-serif; /* Sets Plus Jakarta as the default body font */
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
