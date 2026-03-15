@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
 
           {/* Right Column */}
-          <div className="flex justify-center md:justify-end items-center w-full">
+          <div className="flex justify-center md:justify-end items-end w-full">
             <Picture />
           </div>
         </div>

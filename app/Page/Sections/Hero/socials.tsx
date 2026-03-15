@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Social() {
   // Container
   return (
-    <div className="flex w-full justify-center md:justify-start items-center gap-10 mt-[clamp(16px,calc(5.33vh_-_21.33px),32px)] md:mt-6">
+    <div className="flex w-full justify-center md:justify-start items-center gap-10 mt-[clamp(16px,calc(5.33svh_-_21.33px),32px)] md:mt-6">
       <a
         href="#"
         className="flex items-center justify-center w-[50px] h-[50px] rounded-full border border-white transition-transform active:scale-95"
